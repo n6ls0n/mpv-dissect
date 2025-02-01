@@ -1,0 +1,1 @@
+dpkg-query -f '${binary:Package}\n' -W | grep -v -e '^lib' -e '-dev$' -e '^linux-' | sort -u > installed_packages.txt
