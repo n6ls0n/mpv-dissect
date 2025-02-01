@@ -1,0 +1,4 @@
+--enable-libx264
+--enable-libmp3lame
+--enable-libfdk-aac
+--enable-nonfree
